@@ -6,6 +6,6 @@
         <title>Bem Vindo</title>
     </head>
     <body>
-        <h1><% out.print("Olá Mundo!!!"); %></h1>
+        <h1>Olá ${nome}</h1>
     </body>
 </html>
