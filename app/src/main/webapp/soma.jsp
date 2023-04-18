@@ -5,16 +5,17 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>Tabuada</title>
+        <title>Soma</title>
     </head>
     <body>
         <form action="/tabuada" method="post">
             <input type="number" name="numero" />
-            <button type="submit">Calcular</button>
-            $resultado
+            <button type="submit">Somar</button>
         </form>
         <hr />
 
-
+        <c:forEach var="num" items="${resultado}">
+            ${num} <br />
+        </c:forEach>
     </body>
 </html>
