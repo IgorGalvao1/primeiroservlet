@@ -1,4 +1,4 @@
-package exservlet;
+package exservlets;
 
 import java.io.IOException;
 import jakarta.servlet.ServletException;
